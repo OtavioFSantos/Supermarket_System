@@ -1,0 +1,11 @@
+int menu(void);
+void createList(void);
+void buy(void);
+void remov(void);
+void regist(void);
+void update(void);
+void check(void);
+void size(void);
+void updateSize(void);
+struct ListProd *createChain(void);
+void cleanMemory(struct ListProd *list);
